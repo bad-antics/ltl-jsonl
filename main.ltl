@@ -1,0 +1,15 @@
+// ltl-jsonl/main.ltl
+//
+// Line-delimited JSON reader / writer with schema-guard.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-jsonl v0.1.0")
+    io::println("Line-delimited JSON reader / writer with schema-guard.")
+    0
+}
